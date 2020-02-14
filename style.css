@@ -1,3 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+#title-screen{
+  background-image: url('images/background.jpeg');
+position: absolute;
+visibility: visible;
+width: 100%;
+height: 100%;
+}
 #title{
-    text-align: center;
-  }
+  text-align: center;
+}
+#titleimg{
+  text-align: center;
+}
+
+.button{
+  cursor: pointer;
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  border: solid red 10px;
+  margin-left: 800px;
+  margin-bottom: 100px;
+  padding-top: 20px;
+}
+
+#rules-screen{
+  background-image: url('images/background.jpeg');
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+
+#rtitle{
+  text-align: center;
+  font-size: 85px;
+}
+#rule-list{
+  font-size: 60px;
+  margin-left: 60px;
+}
+li {
+  padding: 25px;
+}
