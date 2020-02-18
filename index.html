@@ -5,32 +5,31 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="script.js"></script>
 </head>
 
 <body>
   <!-- Title Screen -->
-  <div id="title-screen">
+  <div id="titleScreen">
     <div>
     <h1 id="title"> WAR!! </h1>
   </div>
     <div id="titleimg"> <img src="Images/Toy Soldiers.png"> 
     </div>
     <div class='button' id="playButton">
-      <h1> LETS TANGO !!! </h1>
+      <h1 > LETS TANGO !!! </h1>
     </div>
     <div class="button" id="rulesButton">
       <h1> HOW TO PLAY </h1>
     </div>
   </div>
   <!-- Rules Screen -->
-<div id="rules-screen">
+<div id="rulesScreen">
   <h1 id="rtitle"> How To: </h1>
   <ol id="rule-list">
-    <li> Playing "War" is very simple, both parties have a deck of cards.</li>
     <li> To draw a card from your deck just click on it.</li>
-    <li> You win the round if your card has a higher value than your opponent's card. (Number card take their numeric value. However for royal cards: Jack = 10, Queen = 11, King = 12, Ace = 13)</li>
-    <li> To win the game you must win 5 rounds.</li>
+    <li> You win the round if your card has a higher value than your opponent's card. (Number cards take their numeric value. However for royal cards: Jack = 10, Queen = 11, King = 12, Ace = 13)</li>
+    <li> In the case of a tie, the round is a draw and players draw again for 2 points. </li>
+    <li> To win the game you must win 10 points.</li>
   </ol>
   <div id="backButton" class="button"> 
     <h1> Go Back</h1>
@@ -40,7 +39,12 @@
 
 
   <!-- Play Screen -->
-
+  <div id="playScreen"> 
+    <h1 id="ptitle"> Choose Your Color </h1>
+    <div id="blueSelect"> </div>
+    <div id="redSelect"> </div>
+</div>
+  <script src="script.js"> </script>
 </body>
 
 </html>
