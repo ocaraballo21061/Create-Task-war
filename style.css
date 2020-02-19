@@ -4,6 +4,10 @@
 
 }
 
+body{
+  overflow: hidden;
+}
+
 #titleScreen{
   background-image: url('images/background.jpeg');
 position: absolute;
@@ -49,7 +53,7 @@ li {
   padding: 25px;
 }
 
-#playScreen{
+#selectScreen{
   background-image: url('images/background.jpeg');
   position: absolute;
   width: 100%;
@@ -79,4 +83,45 @@ li {
   border: solid red 10px;
   display: inline-block;
   background-color: red;
+}
+
+#gameScreen{
+  background-image: url('images/background.jpeg');
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+
+#p1deck{
+  height: 400px;
+  width: 260px;
+  background-image: url('images/blue_back.png');
+  background-size: cover;
+  margin-left: 1660px;
+  margin-top: 180px;
+}
+
+#p2deck{
+  height: 400px;
+  width: 260px;
+  background-image: url('images/red_back.png');
+  background-size: cover;
+ 
+}
+
+#p2slot{
+margin-left: 600px;
+}
+
+#p1slot{
+  
+}
+
+.slot{
+  height: 400px;
+  width: 260px;
+  border: solid yellow 10px;
+  display: inline-block;
+  margin: 30px;
 }

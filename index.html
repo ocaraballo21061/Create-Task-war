@@ -5,46 +5,68 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link href="style.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body>
   <!-- Title Screen -->
   <div id="titleScreen">
     <div>
-    <h1 id="title"> WAR!! </h1>
-  </div>
-    <div id="titleimg"> <img src="Images/Toy Soldiers.png"> 
+      <h1 id="title"> WAR!! </h1>
+    </div>
+    <div id="titleimg"> <img src="Images/Toy Soldiers.png">
     </div>
     <div class='button' id="playButton">
-      <h1 > LETS TANGO !!! </h1>
+      <h1> LETS TANGO !!! </h1>
     </div>
     <div class="button" id="rulesButton">
       <h1> HOW TO PLAY </h1>
     </div>
   </div>
   <!-- Rules Screen -->
-<div id="rulesScreen">
-  <h1 id="rtitle"> How To: </h1>
-  <ol id="rule-list">
-    <li> To draw a card from your deck just click on it.</li>
-    <li> You win the round if your card has a higher value than your opponent's card. (Number cards take their numeric value. However for royal cards: Jack = 10, Queen = 11, King = 12, Ace = 13)</li>
-    <li> In the case of a tie, the round is a draw and players draw again for 2 points. </li>
-    <li> To win the game you must win 10 points.</li>
-  </ol>
-  <div id="backButton" class="button"> 
-    <h1> Go Back</h1>
+  <div id="rulesScreen">
+    <h1 id="rtitle"> How To: </h1>
+    <ol id="rule-list">
+      <li> To draw a card from your deck just click on it.</li>
+      <li> You win the round if your card has a higher value than your opponent's card. (Number cards take their numeric
+        value. However for royal cards: Jack = 10, Queen = 11, King = 12, Ace = 13)</li>
+      <li> In the case of a tie, the round is a draw and players draw again for 2 points. </li>
+      <li> To win the game you must win 10 points.</li>
+    </ol>
+    <div id="backButton" class="button">
+      <h1> Go Back</h1>
+    </div>
   </div>
-</div>
 
 
 
-  <!-- Play Screen -->
-  <div id="playScreen"> 
+  <!-- Select Color Screen -->
+  <div id="selectScreen">
     <h1 id="ptitle"> Choose Your Color </h1>
     <div id="blueSelect"> </div>
     <div id="redSelect"> </div>
-</div>
-  <script src="script.js"> </script>
+  </div>
+  <!-- Game Screen -->
+  <div id="gameScreen">
+    <div id="p2deck">
+
+    </div>
+
+    <div id="p2slot" class = 'slot'> </div>
+    <div id="p1slot" class = 'slot'> </div>
+
+    <div id="p1deck">
+
+    </div>
+
+  </div>
+
+
+
+
+
 </body>
+
+<script src="script.js"> </script>
 
 </html>
