@@ -1,7 +1,6 @@
 *{
   margin: 0;
   padding: 0;
-
 }
 
 body{
@@ -99,7 +98,7 @@ li {
   background-image: url('images/blue_back.png');
   background-size: cover;
   margin-left: 1660px;
-  margin-top: 180px;
+  margin-top: -150px;
 }
 
 #p2deck{
@@ -112,10 +111,11 @@ li {
 
 #p2slot{
 margin-left: 600px;
+background-image: url(images/AC.png)
 }
 
 #p1slot{
-  
+background-image: url(images/AD.png)  
 }
 
 .slot{
@@ -123,5 +123,16 @@ margin-left: 600px;
   width: 260px;
   border: solid yellow 10px;
   display: inline-block;
-  margin: 30px;
+  margin-left: 200px;
+  margin-top: -100px;
+  background-size: cover;
 }
+
+.scoreTitle{
+  font-size: 60px;
+}
+
+.scoreNumber{
+  font-size: 120px;
+}
+
