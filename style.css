@@ -111,11 +111,11 @@ li {
 
 #p2slot{
 margin-left: 600px;
-background-image: url(images/AC.png)
+background-image: url(images/red_back.png) ;
 }
 
 #p1slot{
-background-image: url(images/AD.png)  
+background-image: url(images/blue_back.png) ;  
 }
 
 .slot{
