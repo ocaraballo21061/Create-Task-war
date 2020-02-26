@@ -92,6 +92,18 @@ li {
   visibility: hidden;
 }
 
+#warButton{
+  margin-top: -60px;
+  font-size: 30px;
+  border: 10px solid red ;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  margin-left: 800px;
+  visibility: hidden;
+  cursor: pointer;
+}
+
 #p1deck{
   height: 400px;
   width: 260px;
@@ -99,9 +111,11 @@ li {
   background-size: cover;
   margin-left: 1660px;
   margin-top: -150px;
+  cursor: pointer;
 }
 
 #p2deck{
+  margin-top: -100px;
   height: 400px;
   width: 260px;
   background-image: url('images/red_back.png');
@@ -121,7 +135,6 @@ background-image: url(images/blue_back.png) ;
 .slot{
   height: 400px;
   width: 260px;
-  border: solid yellow 10px;
   display: inline-block;
   margin-left: 200px;
   margin-top: -100px;
@@ -136,3 +149,13 @@ background-image: url(images/blue_back.png) ;
   font-size: 120px;
 }
 
+.winner{
+  border: 10px solid red;
+}
+
+#startButton{
+  font-size: 40px;
+  margin-left: 900px;
+  cursor: pointer;
+  color: lime;
+}
