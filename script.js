@@ -32,6 +32,10 @@ let p1num;
 
 let p2num;
 
+let p1 = false;
+
+let p2 = false;
+
 let titleScreen = document.getElementById("titleScreen");
 let rulesScreen = document.getElementById("rulesScreen");
 let selectScreen = document.getElementById("selectScreen");
@@ -169,6 +173,17 @@ function setGame() {
     generateRandomCard();
     player1Card();
     player2Card();
+    
+}
+function endGame() {
+if ( p1score = 10){
+    gameScreen.style.visibility = 'hidden';
+    p1screen.style.visibility = 'visible';
+}
+else{
+    gameScreen.style.visibility = 'hidden';
+    p2screen.style.visibility = 'visible'
+}
 }
 function updateScore() {
     score1.innerHTML = p1score;
